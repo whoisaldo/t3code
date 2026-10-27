@@ -1,0 +1,133 @@
+{
+  "label": "win-canonical",
+  "platform": "win32",
+  "node": "v26.12.1",
+  "hostname": "WINDOWS-HOST",
+  "summary": {
+    "contractVersion": 6,
+    "readAt": "2026-08-02T12:00:00.000Z",
+    "timeZone": "UTC",
+    "sinceDay": "2026-07-31",
+    "untilDay": "2026-08-02",
+    "buckets": [
+      {
+        "day": "2026-08-01",
+        "provider": "claude",
+        "model": "claude-fable-5",
+        "sourcePath": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+        "totals": {
+          "uncachedInputTokens": 30,
+          "cachedInputTokens": 0,
+          "cacheCreationTokens": 0,
+          "outputTokens": 90,
+          "reasoningTokens": 0
+        },
+        "costUsd": 0.0048000000000000004,
+        "cacheSavingsUsd": 0,
+        "categoryCostUsd": {
+          "input": 0.0003,
+          "cacheRead": 0,
+          "cacheWrite": 0,
+          "output": 0.0045
+        },
+        "costSource": "modelPriced",
+        "records": 3,
+        "unpricedRecords": 0,
+        "sessions": 2
+      }
+    ],
+    "sources": [
+      {
+        "fingerprint": {
+          "hostId": "WINDOWS-HOST",
+          "provider": "claude",
+          "resolvedHomePath": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+          "volumeId": "1617228095:281474977592079"
+        },
+        "status": "ok",
+        "scannedFiles": 2,
+        "skippedFiles": 0,
+        "malformedRecords": 0,
+        "distinctSessions": 2,
+        "message": null
+      },
+      {
+        "fingerprint": {
+          "hostId": "WINDOWS-HOST",
+          "provider": "codex",
+          "resolvedHomePath": "D:\\AgentWork\\trifecta-1027\\fakehome-win\\codex\\sessions",
+          "volumeId": ""
+        },
+        "status": "missing",
+        "scannedFiles": 0,
+        "skippedFiles": 0,
+        "malformedRecords": 0,
+        "distinctSessions": 0,
+        "message": "No transcript directory on this environment."
+      },
+      {
+        "fingerprint": {
+          "hostId": "WINDOWS-HOST",
+          "provider": "grok",
+          "resolvedHomePath": "D:\\AgentWork\\trifecta-1027\\fakehome-win\\grok\\sessions",
+          "volumeId": ""
+        },
+        "status": "missing",
+        "scannedFiles": 0,
+        "skippedFiles": 0,
+        "malformedRecords": 0,
+        "distinctSessions": 0,
+        "message": "No transcript directory on this environment."
+      },
+      {
+        "fingerprint": {
+          "hostId": "WINDOWS-HOST",
+          "provider": "pi",
+          "resolvedHomePath": "D:\\AgentWork\\trifecta-1027\\fakehome-win\\pi\\sessions",
+          "volumeId": ""
+        },
+        "status": "missing",
+        "scannedFiles": 0,
+        "skippedFiles": 0,
+        "malformedRecords": 0,
+        "distinctSessions": 0,
+        "message": "No transcript directory on this environment."
+      },
+      {
+        "fingerprint": {
+          "hostId": "WINDOWS-HOST",
+          "provider": "opencode",
+          "resolvedHomePath": "D:\\AgentWork\\trifecta-1027\\fakehome-win\\opencode",
+          "volumeId": ""
+        },
+        "status": "missing",
+        "scannedFiles": 0,
+        "skippedFiles": 0,
+        "malformedRecords": 0,
+        "distinctSessions": 0,
+        "message": "No transcript directory on this environment."
+      },
+      {
+        "fingerprint": {
+          "hostId": "WINDOWS-HOST",
+          "provider": "antigravity",
+          "resolvedHomePath": "D:\\AgentWork\\trifecta-1027\\fakehome-win\\antigravity",
+          "volumeId": ""
+        },
+        "status": "missing",
+        "scannedFiles": 0,
+        "skippedFiles": 0,
+        "malformedRecords": 0,
+        "distinctSessions": 0,
+        "message": "No transcript directory on this environment."
+      }
+    ],
+    "pricing": {
+      "status": "fresh",
+      "source": "https://raw.githubusercontent.com/BerriAI/litellm/main/model_prices_and_context_window.json",
+      "fetchedAt": "2026-08-02T12:00:00.000Z",
+      "knownModels": 1
+    },
+    "scanDurationMs": 0
+  }
+}

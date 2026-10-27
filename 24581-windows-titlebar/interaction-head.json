@@ -1,0 +1,32 @@
+[
+  {
+    "step": "open",
+    "dialogs": 1
+  },
+  {
+    "step": "zoom in",
+    "zoomLabel": "125%"
+  },
+  {
+    "step": "reset",
+    "zoomLabel": "100%"
+  },
+  {
+    "step": "Close button",
+    "dialogs": 0
+  },
+  {
+    "step": "reopen",
+    "dialogs": 1
+  },
+  {
+    "step": "Escape",
+    "dialogs": 0,
+    "focusAfter": "Open full screen"
+  },
+  {
+    "step": "reopen again",
+    "dialogs": 1,
+    "closeTop": 62
+  }
+]

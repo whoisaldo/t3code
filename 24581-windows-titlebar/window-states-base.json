@@ -1,0 +1,423 @@
+[
+  {
+    "label": "normal",
+    "win": {
+      "maximized": false,
+      "fullScreen": false,
+      "minimized": false,
+      "visible": true,
+      "bounds": {
+        "x": 200,
+        "y": 100,
+        "width": 1280,
+        "height": 800
+      },
+      "content": {
+        "x": 200,
+        "y": 100,
+        "width": 1280,
+        "height": 800
+      },
+      "screenRect": {
+        "x": 200,
+        "y": 100,
+        "width": 1280,
+        "height": 800
+      }
+    },
+    "geo": {
+      "innerWidth": 1280,
+      "innerHeight": 800,
+      "dpr": 1,
+      "wcoVisible": true,
+      "titlebarAreaRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1143,
+        "height": 40,
+        "right": 1143
+      },
+      "cssNativeTitlebarHeight": 40,
+      "dialogOpen": true,
+      "close": {
+        "x": 1205.796875,
+        "y": 42,
+        "width": 24,
+        "height": 24,
+        "top": 42,
+        "right": 1229.796875,
+        "bottom": 66,
+        "left": 1205.796875
+      },
+      "iframeSameElement": true,
+      "iframeMarked": true,
+      "iframeSameContentWindow": true,
+      "iframeLoadEvents": 0,
+      "iframeIsConnected": true
+    },
+    "overlayHeight": 40,
+    "clearance": 2,
+    "innerScrollTop": 881
+  },
+  {
+    "label": "maximized",
+    "win": {
+      "maximized": true,
+      "fullScreen": false,
+      "minimized": false,
+      "visible": true,
+      "bounds": {
+        "x": -8,
+        "y": -8,
+        "width": 3456,
+        "height": 1408
+      },
+      "content": {
+        "x": 0,
+        "y": 0,
+        "width": 3440,
+        "height": 1392
+      },
+      "screenRect": {
+        "x": 0,
+        "y": 0,
+        "width": 3440,
+        "height": 1392
+      }
+    },
+    "geo": {
+      "innerWidth": 3440,
+      "innerHeight": 1392,
+      "dpr": 1,
+      "wcoVisible": true,
+      "titlebarAreaRect": {
+        "x": 0,
+        "y": 0,
+        "width": 3303,
+        "height": 40,
+        "right": 3303
+      },
+      "cssNativeTitlebarHeight": 40,
+      "dialogOpen": true,
+      "close": {
+        "x": 3279.390625,
+        "y": 59.4375,
+        "width": 24,
+        "height": 24,
+        "top": 59.4375,
+        "right": 3303.390625,
+        "bottom": 83.4375,
+        "left": 3279.390625
+      },
+      "iframeSameElement": true,
+      "iframeMarked": true,
+      "iframeSameContentWindow": true,
+      "iframeLoadEvents": 0,
+      "iframeIsConnected": true
+    },
+    "overlayHeight": 40,
+    "clearance": 19.44,
+    "innerScrollTop": 324
+  },
+  {
+    "label": "restored",
+    "win": {
+      "maximized": false,
+      "fullScreen": false,
+      "minimized": false,
+      "visible": true,
+      "bounds": {
+        "x": 200,
+        "y": 100,
+        "width": 1280,
+        "height": 800
+      },
+      "content": {
+        "x": 200,
+        "y": 100,
+        "width": 1280,
+        "height": 800
+      },
+      "screenRect": {
+        "x": 200,
+        "y": 100,
+        "width": 1280,
+        "height": 800
+      }
+    },
+    "geo": {
+      "innerWidth": 1280,
+      "innerHeight": 800,
+      "dpr": 1,
+      "wcoVisible": true,
+      "titlebarAreaRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1143,
+        "height": 40,
+        "right": 1143
+      },
+      "cssNativeTitlebarHeight": 40,
+      "dialogOpen": true,
+      "close": {
+        "x": 1205.796875,
+        "y": 42,
+        "width": 24,
+        "height": 24,
+        "top": 42,
+        "right": 1229.796875,
+        "bottom": 66,
+        "left": 1205.796875
+      },
+      "iframeSameElement": true,
+      "iframeMarked": true,
+      "iframeSameContentWindow": true,
+      "iframeLoadEvents": 0,
+      "iframeIsConnected": true
+    },
+    "overlayHeight": 40,
+    "clearance": 2,
+    "innerScrollTop": 881
+  },
+  {
+    "label": "fullscreen",
+    "win": {
+      "maximized": false,
+      "fullScreen": true,
+      "minimized": false,
+      "visible": true,
+      "bounds": {
+        "x": 0,
+        "y": 0,
+        "width": 3440,
+        "height": 1440
+      },
+      "content": {
+        "x": 0,
+        "y": 0,
+        "width": 3440,
+        "height": 1440
+      },
+      "screenRect": {
+        "x": 0,
+        "y": 0,
+        "width": 3440,
+        "height": 1440
+      }
+    },
+    "geo": {
+      "innerWidth": 3440,
+      "innerHeight": 1440,
+      "dpr": 1,
+      "wcoVisible": true,
+      "titlebarAreaRect": {
+        "x": 0,
+        "y": 0,
+        "width": 3303,
+        "height": 40,
+        "right": 3303
+      },
+      "cssNativeTitlebarHeight": 40,
+      "dialogOpen": true,
+      "close": {
+        "x": 3279.390625,
+        "y": 62.796875,
+        "width": 24,
+        "height": 24,
+        "top": 62.796875,
+        "right": 3303.390625,
+        "bottom": 86.796875,
+        "left": 3279.390625
+      },
+      "iframeSameElement": true,
+      "iframeMarked": true,
+      "iframeSameContentWindow": true,
+      "iframeLoadEvents": 0,
+      "iframeIsConnected": true
+    },
+    "overlayHeight": 40,
+    "clearance": 22.8,
+    "innerScrollTop": 283
+  },
+  {
+    "label": "exit-fullscreen",
+    "win": {
+      "maximized": false,
+      "fullScreen": false,
+      "minimized": false,
+      "visible": true,
+      "bounds": {
+        "x": 200,
+        "y": 100,
+        "width": 1280,
+        "height": 800
+      },
+      "content": {
+        "x": 200,
+        "y": 100,
+        "width": 1280,
+        "height": 800
+      },
+      "screenRect": {
+        "x": 200,
+        "y": 100,
+        "width": 1280,
+        "height": 800
+      }
+    },
+    "geo": {
+      "innerWidth": 1280,
+      "innerHeight": 800,
+      "dpr": 1,
+      "wcoVisible": true,
+      "titlebarAreaRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1143,
+        "height": 40,
+        "right": 1143
+      },
+      "cssNativeTitlebarHeight": 40,
+      "dialogOpen": true,
+      "close": {
+        "x": 1205.796875,
+        "y": 42,
+        "width": 24,
+        "height": 24,
+        "top": 42,
+        "right": 1229.796875,
+        "bottom": 66,
+        "left": 1205.796875
+      },
+      "iframeSameElement": true,
+      "iframeMarked": true,
+      "iframeSameContentWindow": true,
+      "iframeLoadEvents": 0,
+      "iframeIsConnected": true
+    },
+    "overlayHeight": 40,
+    "clearance": 2,
+    "innerScrollTop": 881
+  },
+  {
+    "label": "minimized",
+    "win": {
+      "maximized": false,
+      "fullScreen": false,
+      "minimized": true,
+      "visible": false,
+      "bounds": {
+        "x": 200,
+        "y": 100,
+        "width": 1280,
+        "height": 800
+      },
+      "content": {
+        "x": -31992,
+        "y": -32000,
+        "width": 0,
+        "height": 0
+      },
+      "screenRect": {
+        "x": -31992,
+        "y": -32000,
+        "width": 0,
+        "height": 0
+      }
+    },
+    "geo": {
+      "innerWidth": 1280,
+      "innerHeight": 800,
+      "dpr": 1,
+      "wcoVisible": false,
+      "titlebarAreaRect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "right": 0
+      },
+      "cssNativeTitlebarHeight": 0,
+      "dialogOpen": true,
+      "close": {
+        "x": 1205.796875,
+        "y": 22,
+        "width": 24,
+        "height": 24,
+        "top": 22,
+        "right": 1229.796875,
+        "bottom": 46,
+        "left": 1205.796875
+      },
+      "iframeSameElement": true,
+      "iframeMarked": true,
+      "iframeSameContentWindow": true,
+      "iframeLoadEvents": 0,
+      "iframeIsConnected": true
+    },
+    "overlayHeight": 0,
+    "clearance": 22,
+    "innerScrollTop": 881,
+    "captureNote": "no capture published for the minimized state"
+  },
+  {
+    "label": "restored-from-minimize",
+    "win": {
+      "maximized": false,
+      "fullScreen": false,
+      "minimized": false,
+      "visible": true,
+      "bounds": {
+        "x": 200,
+        "y": 100,
+        "width": 1280,
+        "height": 800
+      },
+      "content": {
+        "x": 200,
+        "y": 100,
+        "width": 1280,
+        "height": 800
+      },
+      "screenRect": {
+        "x": 200,
+        "y": 100,
+        "width": 1280,
+        "height": 800
+      }
+    },
+    "geo": {
+      "innerWidth": 1280,
+      "innerHeight": 800,
+      "dpr": 1,
+      "wcoVisible": true,
+      "titlebarAreaRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1143,
+        "height": 40,
+        "right": 1143
+      },
+      "cssNativeTitlebarHeight": 40,
+      "dialogOpen": true,
+      "close": {
+        "x": 1205.796875,
+        "y": 42,
+        "width": 24,
+        "height": 24,
+        "top": 42,
+        "right": 1229.796875,
+        "bottom": 66,
+        "left": 1205.796875
+      },
+      "iframeSameElement": true,
+      "iframeMarked": true,
+      "iframeSameContentWindow": true,
+      "iframeLoadEvents": 0,
+      "iframeIsConnected": true
+    },
+    "overlayHeight": 40,
+    "clearance": 2,
+    "innerScrollTop": 881
+  }
+]

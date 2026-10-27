@@ -1,0 +1,146 @@
+[
+  {
+    "name": "head-1280x800-dsf150",
+    "h": 800,
+    "geo": {
+      "innerWidth": 1280,
+      "innerHeight": 800,
+      "dpr": 1.5,
+      "wcoVisible": true,
+      "titlebarAreaRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1143,
+        "height": 40,
+        "right": 1143,
+        "bottom": 40
+      },
+      "cssNativeTitlebarHeight": 40,
+      "close": {
+        "x": 1205.4583740234375,
+        "y": 62,
+        "width": 24,
+        "height": 24,
+        "top": 62,
+        "right": 1229.4583740234375,
+        "bottom": 86,
+        "left": 1205.4583740234375
+      },
+      "zoomIn": {
+        "x": 835.4375,
+        "y": 710,
+        "width": 28,
+        "height": 28,
+        "top": 710,
+        "right": 863.4375,
+        "bottom": 738,
+        "left": 835.4375
+      },
+      "previewBox": {
+        "x": 51.864585876464844,
+        "y": 102,
+        "width": 1177.59375,
+        "height": 600,
+        "top": 102,
+        "right": 1229.4583358764648,
+        "bottom": 702,
+        "left": 51.864585876464844
+      }
+    },
+    "win": {
+      "bounds": {
+        "x": 200,
+        "y": 100,
+        "width": 1281,
+        "height": 801
+      },
+      "content": {
+        "x": 201,
+        "y": 100,
+        "width": 1280,
+        "height": 800
+      },
+      "screenRect": {
+        "x": 300,
+        "y": 150,
+        "width": 1922,
+        "height": 1202
+      },
+      "scale": 1.5
+    },
+    "clearance": 22,
+    "closeHorizontallyUnderCaptionButtons": true
+  },
+  {
+    "name": "head-1280x620-dsf150",
+    "h": 620,
+    "geo": {
+      "innerWidth": 1280,
+      "innerHeight": 621,
+      "dpr": 1.5,
+      "wcoVisible": true,
+      "titlebarAreaRect": {
+        "x": 0,
+        "y": 0,
+        "width": 1143,
+        "height": 40,
+        "right": 1143,
+        "bottom": 40
+      },
+      "cssNativeTitlebarHeight": 40,
+      "close": {
+        "x": 1205.4583740234375,
+        "y": 62,
+        "width": 24,
+        "height": 24,
+        "top": 62,
+        "right": 1229.4583740234375,
+        "bottom": 86,
+        "left": 1205.4583740234375
+      },
+      "zoomIn": {
+        "x": 835.4375,
+        "y": 531.3333740234375,
+        "width": 28,
+        "height": 28,
+        "top": 531.3333740234375,
+        "right": 863.4375,
+        "bottom": 559.3333740234375,
+        "left": 835.4375
+      },
+      "previewBox": {
+        "x": 51.864585876464844,
+        "y": 102,
+        "width": 1177.59375,
+        "height": 421.3333435058594,
+        "top": 102,
+        "right": 1229.4583358764648,
+        "bottom": 523.3333435058594,
+        "left": 51.864585876464844
+      }
+    },
+    "win": {
+      "bounds": {
+        "x": 200,
+        "y": 100,
+        "width": 1281,
+        "height": 621
+      },
+      "content": {
+        "x": 201,
+        "y": 100,
+        "width": 1280,
+        "height": 621
+      },
+      "screenRect": {
+        "x": 300,
+        "y": 150,
+        "width": 1922,
+        "height": 932
+      },
+      "scale": 1.5
+    },
+    "clearance": 22,
+    "closeHorizontallyUnderCaptionButtons": true
+  }
+]

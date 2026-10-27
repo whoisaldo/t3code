@@ -1,0 +1,25 @@
+{
+  "Windows only": {
+    "sessions": 2,
+    "records": 3,
+    "totalTokens": 120,
+    "costUsd": 0.0048,
+    "duplicateSources": []
+  },
+  "WSL only": {
+    "sessions": 2,
+    "records": 3,
+    "totalTokens": 120,
+    "costUsd": 0.0048,
+    "duplicateSources": []
+  },
+  "combined (Windows + WSL)": {
+    "sessions": 2,
+    "records": 3,
+    "totalTokens": 120,
+    "costUsd": 0.0048,
+    "duplicateSources": [
+      "WSL: /mnt/d/AgentWork/trifecta-1027/shared/.claude/projects"
+    ]
+  }
+}

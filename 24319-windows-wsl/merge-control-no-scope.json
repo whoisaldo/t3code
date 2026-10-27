@@ -1,0 +1,23 @@
+{
+  "Windows only": {
+    "sessions": 2,
+    "records": 3,
+    "totalTokens": 120,
+    "costUsd": 0.0048,
+    "duplicateSources": []
+  },
+  "WSL only": {
+    "sessions": 2,
+    "records": 3,
+    "totalTokens": 120,
+    "costUsd": 0.0048,
+    "duplicateSources": []
+  },
+  "combined (Windows + WSL)": {
+    "sessions": 4,
+    "records": 6,
+    "totalTokens": 240,
+    "costUsd": 0.0096,
+    "duplicateSources": []
+  }
+}

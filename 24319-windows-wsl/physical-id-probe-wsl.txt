@@ -1,0 +1,6 @@
+{"platform":"linux","dir":"/mnt/c/Users/USER/AppData/Local/Temp/trifecta-1027-c/.claude/projects","effectRealpath":"/mnt/c/Users/USER/AppData/Local/Temp/trifecta-1027-c/.claude/projects","physicalSourceId":"41be62ec3f694487701b055286b33163"}
+{"platform":"linux","dir":"/mnt/c/users/USER/appdata/local/temp/trifecta-1027-c/.claude/projects","effectRealpath":"/mnt/c/users/USER/appdata/local/temp/trifecta-1027-c/.claude/projects","physicalSourceId":"41be62ec3f694487701b055286b33163"}
+{"platform":"linux","dir":"/mnt/d/AgentWork/trifecta-1027/shared/.claude/projects","effectRealpath":"/mnt/d/AgentWork/trifecta-1027/shared/.claude/projects","physicalSourceId":"0442a9868c5bf214f38c8ca857f7f510"}
+{"platform":"linux","dir":"/mnt/d/AgentWork/trifecta-1027/junction-home/.claude/projects","effectRealpath":"/mnt/d/AgentWork/trifecta-1027/shared/.claude/projects","physicalSourceId":"0442a9868c5bf214f38c8ca857f7f510"}
+total 0
+223 172 0:103 / /mnt/c rw,noatime - 9p C:\134 rw,aname=drvfs;path=C:\;uid=1000;gid=1000;symlinkroot=/mnt/,cache=5,access=client,msize=65536,trans=fd,rfd=6,wfd=6

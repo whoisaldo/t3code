@@ -1,0 +1,7 @@
+# PR head 02bee71636 build, Electron 44.9.3 dev-unpackaged app, WSL backend in distro "Trifecta1027" (WSL 2.6.1, kernel 6.6.87.2-microsoft-standard-WSL2)
+# Windows side: persisted scope file <T3CODE_HOME>\userdata\desktop-host-scope
+a0a921cb2d9543b9972d809dce504a22
+# WSL side: /proc/<pid of node .../apps/server/dist/bin.mjs --bootstrap-fd 0>/environ (filtered)
+WSLENV=T3CODE_DESKTOP_HOST_SCOPE:T3CODE_TELEMETRY_ENABLED:T3CODE_OTEL_SDK_DISABLED:OTEL_SDK_DISABLED
+T3CODE_DESKTOP_HOST_SCOPE=a0a921cb2d9543b9972d809dce504a22
+HOME=/root

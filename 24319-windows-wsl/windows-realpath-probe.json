@@ -1,0 +1,62 @@
+{
+ "platform": "win32",
+ "node": "v26.12.1",
+ "rows": [
+  {
+   "name": "canonical",
+   "input": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "promisesRealpath": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "jsRealpath": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "nativeSync": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "devIno": "1617228095:281474977592079"
+  },
+  {
+   "name": "lowercaseDrive",
+   "input": "d:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "promisesRealpath": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "jsRealpath": "d:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "nativeSync": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "devIno": "1617228095:281474977592079"
+  },
+  {
+   "name": "wrongCaseComponents",
+   "input": "D:\\AGENTWORK\\Trifecta-1027\\SHARED\\.Claude\\Projects",
+   "promisesRealpath": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "jsRealpath": "D:\\AGENTWORK\\Trifecta-1027\\SHARED\\.Claude\\Projects",
+   "nativeSync": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "devIno": "1617228095:281474977592079"
+  },
+  {
+   "name": "forwardSlashes",
+   "input": "D:/AgentWork/trifecta-1027/shared/.claude/projects",
+   "promisesRealpath": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "jsRealpath": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "nativeSync": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "devIno": "1617228095:281474977592079"
+  },
+  {
+   "name": "trailingBackslash",
+   "input": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects\\",
+   "promisesRealpath": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "jsRealpath": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "nativeSync": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "devIno": "1617228095:281474977592079"
+  },
+  {
+   "name": "junction",
+   "input": "D:\\AgentWork\\trifecta-1027\\junction-home\\.claude\\projects",
+   "promisesRealpath": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "jsRealpath": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "nativeSync": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "devIno": "1617228095:281474977592079"
+  },
+  {
+   "name": "substDrive",
+   "input": "T:\\.claude\\projects",
+   "promisesRealpath": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "jsRealpath": "T:\\.claude\\projects",
+   "nativeSync": "D:\\AgentWork\\trifecta-1027\\shared\\.claude\\projects",
+   "devIno": "1617228095:281474977592079"
+  }
+ ]
+}

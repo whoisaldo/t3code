@@ -1,0 +1,157 @@
+{
+  "note": "Red pixels are searched only inside the caption-button area reported by the page (x from titlebarAreaRect.right to the window's right edge) and below row 0, which is the window's 1px accent-coloured top border. The red caption fill starts under that border, so the caption height is (last red row + 1).",
+  "rows": [
+    {
+      "name": "base-1280x800",
+      "image": "1280x800",
+      "scale": 1.0,
+      "search_x_from": 1143,
+      "red_bbox": [
+        1235,
+        1,
+        1279,
+        39
+      ],
+      "red_width_px": 45,
+      "caption_height_px": 40,
+      "caption_height_css": 40.0,
+      "close_top_px": 42.0,
+      "gap_px": 2.0,
+      "gap_css": 2.0,
+      "dom_clearance": 2
+    },
+    {
+      "name": "base-1280x620",
+      "image": "1280x620",
+      "scale": 1.0,
+      "search_x_from": 1143,
+      "red_bbox": [
+        1235,
+        1,
+        1279,
+        39
+      ],
+      "red_width_px": 45,
+      "caption_height_px": 40,
+      "caption_height_css": 40.0,
+      "close_top_px": 42.0,
+      "gap_px": 2.0,
+      "gap_css": 2.0,
+      "dom_clearance": 2
+    },
+    {
+      "name": "base-1280x800-dsf150",
+      "image": "1922x1202",
+      "scale": 1.502,
+      "search_x_from": 1716,
+      "red_bbox": [
+        1854,
+        1,
+        1921,
+        59
+      ],
+      "red_width_px": 68,
+      "caption_height_px": 60,
+      "caption_height_css": 39.96,
+      "close_top_px": 63.1,
+      "gap_px": 3.1,
+      "gap_css": 2.04,
+      "dom_clearance": 2
+    },
+    {
+      "name": "base-1280x620-dsf150",
+      "image": "1922x932",
+      "scale": 1.502,
+      "search_x_from": 1716,
+      "red_bbox": [
+        1854,
+        1,
+        1921,
+        59
+      ],
+      "red_width_px": 68,
+      "caption_height_px": 60,
+      "caption_height_css": 39.96,
+      "close_top_px": 63.1,
+      "gap_px": 3.1,
+      "gap_css": 2.04,
+      "dom_clearance": 2
+    },
+    {
+      "name": "head-1280x800",
+      "image": "1280x800",
+      "scale": 1.0,
+      "search_x_from": 1143,
+      "red_bbox": [
+        1235,
+        1,
+        1279,
+        39
+      ],
+      "red_width_px": 45,
+      "caption_height_px": 40,
+      "caption_height_css": 40.0,
+      "close_top_px": 62.0,
+      "gap_px": 22.0,
+      "gap_css": 22.0,
+      "dom_clearance": 22
+    },
+    {
+      "name": "head-1280x620",
+      "image": "1280x620",
+      "scale": 1.0,
+      "search_x_from": 1143,
+      "red_bbox": [
+        1235,
+        1,
+        1279,
+        39
+      ],
+      "red_width_px": 45,
+      "caption_height_px": 40,
+      "caption_height_css": 40.0,
+      "close_top_px": 62.0,
+      "gap_px": 22.0,
+      "gap_css": 22.0,
+      "dom_clearance": 22
+    },
+    {
+      "name": "head-1280x800-dsf150",
+      "image": "1922x1202",
+      "scale": 1.502,
+      "search_x_from": 1716,
+      "red_bbox": [
+        1854,
+        1,
+        1921,
+        59
+      ],
+      "red_width_px": 68,
+      "caption_height_px": 60,
+      "caption_height_css": 39.96,
+      "close_top_px": 93.1,
+      "gap_px": 33.1,
+      "gap_css": 22.04,
+      "dom_clearance": 22
+    },
+    {
+      "name": "head-1280x620-dsf150",
+      "image": "1922x932",
+      "scale": 1.502,
+      "search_x_from": 1716,
+      "red_bbox": [
+        1854,
+        1,
+        1921,
+        59
+      ],
+      "red_width_px": 68,
+      "caption_height_px": 60,
+      "caption_height_css": 39.96,
+      "close_top_px": 93.1,
+      "gap_px": 33.1,
+      "gap_css": 22.04,
+      "dom_clearance": 22
+    }
+  ]
+}
