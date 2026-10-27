@@ -1,0 +1,374 @@
+[
+ {
+  "scenario": "a",
+  "attempt": 1,
+  "target": "cross-site-iframe",
+  "before": {
+   "appFocus": "DIV",
+   "appHasFocus": true,
+   "mainWindowFocused": true,
+   "frontmost": "Electron",
+   "composer": "\n"
+  },
+  "afterClick": {
+   "appFocusAbout50ms": "WEBVIEW",
+   "mainWindowFocused": true,
+   "frontmost": "Electron"
+  },
+  "consoleLines": [],
+  "appGotKeyLines": 0,
+  "pageKeydownsByFrame": {
+   "cross-site": [
+    "t",
+    "e",
+    "s",
+    "t"
+   ]
+  },
+  "fieldValue": "test",
+  "composer": "",
+  "landed": "field",
+  "build": "main-36d4d71"
+ },
+ {
+  "scenario": "a",
+  "attempt": 2,
+  "target": "cross-site-iframe",
+  "before": {
+   "appFocus": "DIV",
+   "appHasFocus": true,
+   "mainWindowFocused": true,
+   "frontmost": "Electron",
+   "composer": "\n"
+  },
+  "afterClick": {
+   "appFocusAbout50ms": "WEBVIEW",
+   "mainWindowFocused": true,
+   "frontmost": "Electron"
+  },
+  "consoleLines": [],
+  "appGotKeyLines": 0,
+  "pageKeydownsByFrame": {
+   "cross-site": [
+    "t",
+    "e",
+    "s",
+    "t"
+   ]
+  },
+  "fieldValue": "test",
+  "composer": "",
+  "landed": "field",
+  "build": "main-36d4d71"
+ },
+ {
+  "scenario": "a",
+  "attempt": 3,
+  "target": "cross-site-iframe",
+  "before": {
+   "appFocus": "DIV",
+   "appHasFocus": true,
+   "mainWindowFocused": true,
+   "frontmost": "Electron",
+   "composer": "\n"
+  },
+  "afterClick": {
+   "appFocusAbout50ms": "WEBVIEW",
+   "mainWindowFocused": true,
+   "frontmost": "Electron"
+  },
+  "consoleLines": [],
+  "appGotKeyLines": 0,
+  "pageKeydownsByFrame": {
+   "cross-site": [
+    "t",
+    "e",
+    "s",
+    "t"
+   ]
+  },
+  "fieldValue": "test",
+  "composer": "",
+  "landed": "field",
+  "build": "main-36d4d71"
+ },
+ {
+  "scenario": "b",
+  "attempt": 1,
+  "target": "cross-site-iframe",
+  "before": {
+   "appFocus": "DIV",
+   "appHasFocus": false,
+   "mainWindowFocused": false,
+   "frontmost": "TrifectaFixture",
+   "composer": "\n"
+  },
+  "afterClick": {
+   "appFocusAbout50ms": "DIV",
+   "mainWindowFocused": true,
+   "frontmost": "Electron"
+  },
+  "consoleLines": [
+   "window focus, 50ms later: DIV",
+   "app got key t focus: DIV",
+   "app got key e focus: DIV",
+   "app got key s focus: DIV",
+   "app got key t focus: DIV"
+  ],
+  "appGotKeyLines": 4,
+  "pageKeydownsByFrame": {},
+  "fieldValue": "",
+  "composer": "test",
+  "landed": "composer",
+  "build": "main-36d4d71"
+ },
+ {
+  "scenario": "b",
+  "attempt": 2,
+  "target": "cross-site-iframe",
+  "before": {
+   "appFocus": "DIV",
+   "appHasFocus": false,
+   "mainWindowFocused": false,
+   "frontmost": "TrifectaFixture",
+   "composer": "\n"
+  },
+  "afterClick": {
+   "appFocusAbout50ms": "DIV",
+   "mainWindowFocused": true,
+   "frontmost": "Electron"
+  },
+  "consoleLines": [
+   "window focus, 50ms later: DIV",
+   "app got key t focus: DIV",
+   "app got key e focus: DIV",
+   "app got key s focus: DIV",
+   "app got key t focus: DIV"
+  ],
+  "appGotKeyLines": 4,
+  "pageKeydownsByFrame": {},
+  "fieldValue": "",
+  "composer": "test",
+  "landed": "composer",
+  "build": "main-36d4d71"
+ },
+ {
+  "scenario": "b",
+  "attempt": 3,
+  "target": "cross-site-iframe",
+  "before": {
+   "appFocus": "DIV",
+   "appHasFocus": false,
+   "mainWindowFocused": false,
+   "frontmost": "TrifectaFixture",
+   "composer": "\n"
+  },
+  "afterClick": {
+   "appFocusAbout50ms": "DIV",
+   "mainWindowFocused": true,
+   "frontmost": "Electron"
+  },
+  "consoleLines": [
+   "window focus, 50ms later: DIV",
+   "app got key t focus: DIV",
+   "app got key e focus: DIV",
+   "app got key s focus: DIV",
+   "app got key t focus: DIV"
+  ],
+  "appGotKeyLines": 4,
+  "pageKeydownsByFrame": {},
+  "fieldValue": "",
+  "composer": "test",
+  "landed": "composer",
+  "build": "main-36d4d71"
+ },
+ {
+  "scenario": "c",
+  "attempt": 1,
+  "target": "top-frame",
+  "before": {
+   "appFocus": "DIV",
+   "appHasFocus": false,
+   "mainWindowFocused": false,
+   "frontmost": "TrifectaFixture",
+   "composer": "\n"
+  },
+  "afterClick": {
+   "appFocusAbout50ms": "DIV",
+   "mainWindowFocused": true,
+   "frontmost": "Electron"
+  },
+  "consoleLines": [
+   "window focus, 50ms later: DIV",
+   "app got key t focus: DIV",
+   "app got key e focus: DIV",
+   "app got key s focus: DIV",
+   "app got key t focus: DIV"
+  ],
+  "appGotKeyLines": 4,
+  "pageKeydownsByFrame": {},
+  "fieldValue": "",
+  "composer": "test",
+  "landed": "composer",
+  "build": "main-36d4d71"
+ },
+ {
+  "scenario": "c",
+  "attempt": 2,
+  "target": "top-frame",
+  "before": {
+   "appFocus": "DIV",
+   "appHasFocus": false,
+   "mainWindowFocused": false,
+   "frontmost": "TrifectaFixture",
+   "composer": "\n"
+  },
+  "afterClick": {
+   "appFocusAbout50ms": "DIV",
+   "mainWindowFocused": true,
+   "frontmost": "Electron"
+  },
+  "consoleLines": [
+   "window focus, 50ms later: DIV",
+   "app got key t focus: DIV",
+   "app got key e focus: DIV",
+   "app got key s focus: DIV",
+   "app got key t focus: DIV"
+  ],
+  "appGotKeyLines": 4,
+  "pageKeydownsByFrame": {},
+  "fieldValue": "",
+  "composer": "test",
+  "landed": "composer",
+  "build": "main-36d4d71"
+ },
+ {
+  "scenario": "c",
+  "attempt": 3,
+  "target": "top-frame",
+  "before": {
+   "appFocus": "DIV",
+   "appHasFocus": false,
+   "mainWindowFocused": false,
+   "frontmost": "TrifectaFixture",
+   "composer": "\n"
+  },
+  "afterClick": {
+   "appFocusAbout50ms": "DIV",
+   "mainWindowFocused": true,
+   "frontmost": "Electron"
+  },
+  "consoleLines": [
+   "window focus, 50ms later: DIV",
+   "app got key t focus: DIV",
+   "app got key e focus: DIV",
+   "app got key s focus: DIV",
+   "app got key t focus: DIV"
+  ],
+  "appGotKeyLines": 4,
+  "pageKeydownsByFrame": {},
+  "fieldValue": "",
+  "composer": "test",
+  "landed": "composer",
+  "build": "main-36d4d71"
+ },
+ {
+  "scenario": "d",
+  "attempt": 1,
+  "target": "cross-site-iframe",
+  "before": {
+   "appFocus": "DIV",
+   "appHasFocus": false,
+   "mainWindowFocused": false,
+   "frontmost": "TrifectaFixture",
+   "composer": "\n"
+  },
+  "afterClick": {
+   "appFocusAbout50ms": "WEBVIEW",
+   "mainWindowFocused": true,
+   "frontmost": "Electron"
+  },
+  "consoleLines": [
+   "window focus, 50ms later: WEBVIEW"
+  ],
+  "appGotKeyLines": 0,
+  "pageKeydownsByFrame": {
+   "cross-site": [
+    "t",
+    "e",
+    "s",
+    "t"
+   ]
+  },
+  "fieldValue": "test",
+  "composer": "",
+  "landed": "field",
+  "build": "candidate-36d4d71"
+ },
+ {
+  "scenario": "d",
+  "attempt": 2,
+  "target": "cross-site-iframe",
+  "before": {
+   "appFocus": "DIV",
+   "appHasFocus": false,
+   "mainWindowFocused": false,
+   "frontmost": "TrifectaFixture",
+   "composer": "\n"
+  },
+  "afterClick": {
+   "appFocusAbout50ms": "WEBVIEW",
+   "mainWindowFocused": true,
+   "frontmost": "Electron"
+  },
+  "consoleLines": [
+   "window focus, 50ms later: WEBVIEW"
+  ],
+  "appGotKeyLines": 0,
+  "pageKeydownsByFrame": {
+   "cross-site": [
+    "t",
+    "e",
+    "s",
+    "t"
+   ]
+  },
+  "fieldValue": "test",
+  "composer": "",
+  "landed": "field",
+  "build": "candidate-36d4d71"
+ },
+ {
+  "scenario": "d",
+  "attempt": 3,
+  "target": "cross-site-iframe",
+  "before": {
+   "appFocus": "DIV",
+   "appHasFocus": false,
+   "mainWindowFocused": false,
+   "frontmost": "TrifectaFixture",
+   "composer": "\n"
+  },
+  "afterClick": {
+   "appFocusAbout50ms": "WEBVIEW",
+   "mainWindowFocused": true,
+   "frontmost": "Electron"
+  },
+  "consoleLines": [
+   "window focus, 50ms later: WEBVIEW"
+  ],
+  "appGotKeyLines": 0,
+  "pageKeydownsByFrame": {
+   "cross-site": [
+    "t",
+    "e",
+    "s",
+    "t"
+   ]
+  },
+  "fieldValue": "test",
+  "composer": "",
+  "landed": "field",
+  "build": "candidate-36d4d71"
+ }
+]
