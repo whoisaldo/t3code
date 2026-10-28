@@ -1,0 +1,33 @@
+# managername=Aqua date=2026-10-27T10:35:50Z macOS=15.7.9
+# fixture pids: A=74039 (normal) B=74068 (normal, launched after A; in front in CG window order) C=74074 (floating, layer!=0) D=74028 (minimized)
+## native CGWindowList rows for the fixture windows (other apps' on-screen layer-0 windows redacted)
+frontmost(real): {'pid': 381, 'name': 'loginwindow', 'bundleId': 'com.apple.loginwindow'}
+  idx=17 id=80905 layer=3 ownerPid=74074 ownerName=TrifectaProbeWin
+  idx=18 id=80904 layer=0 ownerPid=74068 ownerName=TrifectaProbeWin
+  idx=19 id=80903 layer=0 ownerPid=74039 ownerName=TrifectaProbeWin
+M1/M4 invalid PID, exact name | frontmost pid=-1 name='TrifectaProbeWin' | before: <empty: window-unavailable>
+M1/M4 invalid PID, exact name | frontmost pid=-1 name='TrifectaProbeWin' | after: {"id":80904,"title":"","bounds":{"x":300,"y":862,"width":300,"height":228},"owner":{"name":"TrifectaProbeWin","processId":74068,"path":"/fixture/TrifectaProbeWin","bundleId":"fixture.injected"}}
+M1 invalid PID 0 | frontmost pid=0 name='TrifectaProbeWin' | before: <empty: window-unavailable>
+M1 invalid PID 0 | frontmost pid=0 name='TrifectaProbeWin' | after: {"id":80904,"title":"","bounds":{"x":300,"y":862,"width":300,"height":228},"owner":{"name":"TrifectaProbeWin","processId":74068,"path":"/fixture/TrifectaProbeWin","bundleId":"fixture.injected"}}
+M2 valid PID A, same-name window B earlier | frontmost pid=74039 name='TrifectaProbeWin' | before: {"id":80903,"title":"","bounds":{"x":200,"y":912,"width":300,"height":228},"owner":{"name":"TrifectaProbeWin","processId":74039,"path":"/fixture/TrifectaProbeWin","bundleId":"fixture.injected"}}
+M2 valid PID A, same-name window B earlier | frontmost pid=74039 name='TrifectaProbeWin' | after: {"id":80903,"title":"","bounds":{"x":200,"y":912,"width":300,"height":228},"owner":{"name":"TrifectaProbeWin","processId":74039,"path":"/fixture/TrifectaProbeWin","bundleId":"fixture.injected"}}
+M2 valid PID B | frontmost pid=74068 name='TrifectaProbeWin' | before: {"id":80904,"title":"","bounds":{"x":300,"y":862,"width":300,"height":228},"owner":{"name":"TrifectaProbeWin","processId":74068,"path":"/fixture/TrifectaProbeWin","bundleId":"fixture.injected"}}
+M2 valid PID B | frontmost pid=74068 name='TrifectaProbeWin' | after: {"id":80904,"title":"","bounds":{"x":300,"y":862,"width":300,"height":228},"owner":{"name":"TrifectaProbeWin","processId":74068,"path":"/fixture/TrifectaProbeWin","bundleId":"fixture.injected"}}
+M2 valid PID A, conflicting app name | frontmost pid=74039 name='OtherName' | before: {"id":80903,"title":"","bounds":{"x":200,"y":912,"width":300,"height":228},"owner":{"name":"OtherName","processId":74039,"path":"/fixture/OtherName","bundleId":"fixture.injected"}}
+M2 valid PID A, conflicting app name | frontmost pid=74039 name='OtherName' | after: {"id":80903,"title":"","bounds":{"x":200,"y":912,"width":300,"height":228},"owner":{"name":"OtherName","processId":74039,"path":"/fixture/OtherName","bundleId":"fixture.injected"}}
+M3 invalid PID, empty name | frontmost pid=-1 name='' | before: <empty: window-unavailable>
+M3 invalid PID, empty name | frontmost pid=-1 name='' | after: <empty: window-unavailable>
+M3 invalid PID, case-mismatch name | frontmost pid=-1 name='trifectaprobewin' | before: <empty: window-unavailable>
+M3 invalid PID, case-mismatch name | frontmost pid=-1 name='trifectaprobewin' | after: <empty: window-unavailable>
+M3 invalid PID, prefix name | frontmost pid=-1 name='TrifectaProbe' | before: <empty: window-unavailable>
+M3 invalid PID, prefix name | frontmost pid=-1 name='TrifectaProbe' | after: <empty: window-unavailable>
+M4 valid PID C (floating only) | frontmost pid=74074 name='TrifectaProbeWin' | before: <empty: window-unavailable>
+M4 valid PID C (floating only) | frontmost pid=74074 name='TrifectaProbeWin' | after: <empty: window-unavailable>
+M4 valid PID D (minimized only) | frontmost pid=74028 name='TrifectaProbeWin' | before: <empty: window-unavailable>
+M4 valid PID D (minimized only) | frontmost pid=74028 name='TrifectaProbeWin' | after: <empty: window-unavailable>
+real frontmost (unmodified script) | before: <empty: window-unavailable>
+real frontmost (unmodified script) | after: <empty: window-unavailable>
+could not create image from window
+screencapture -l 80904 -o -x rc=1
+(redacted 10 on-screen layer-0 windows owned by other apps; none named TrifectaProbeWin)
+END

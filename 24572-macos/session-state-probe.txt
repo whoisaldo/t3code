@@ -1,0 +1,10 @@
+# Session-state probe, macOS 15.7.9 (24G830)
+# Re-run at 2026-10-27T10:48:48Z from the same non-GUI shell; the Aqua lines are copied from the Aqua LaunchAgent probe run at 2026-10-27T10:33Z (output file mtime).
+## background shell
+ioreg -n Root -d1 -a | CGSSessionScreenIsLocked: <true/>
+launchctl managername: Background
+osascript CGWindowListCopyWindowInfo(OnScreenOnly|ExcludeDesktopElements) exit status: 139 (SIGSEGV)
+## Aqua LaunchAgent (com.whoisaldo.trifecta-desktop.aqua-probe)
+launchctl managername: Aqua
+NSWorkspace.frontmostApplication: 381 loginwindow
+AXIsProcessTrusted() for /usr/bin/osascript: false

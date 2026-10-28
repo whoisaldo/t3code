@@ -1,0 +1,19 @@
+# Session state after unlock, macOS 15.7.9 (24G830), 2026-10-27T14:35:03Z
+## my shell (child of the T3 runtime; launchd session: Background)
+CGSSessionScreenIsLocked: <key absent: unlocked>
+AXIsProcessTrusted=true
+CGPreflightScreenCaptureAccess=true
+osascript CGWindowListCopyWindowInfo exit status: 139 (SIGSEGV)
+## desktop app launched from my shell (3cc31ed build), main process
+systemPreferences.getMediaAccessStatus('screen')=granted, isTrustedAccessibilityClient(false)=true
+osascript CG probe spawned by the app: signal SIGSEGV
+## Aqua LaunchAgent, program = my probe binary
+managername=Aqua
+AXIsProcessTrusted=false
+CGPreflightScreenCaptureAccess=false
+cg count=25
+## Aqua LaunchAgent, program = node
+managername=Aqua
+AXIsProcessTrusted=true
+CGPreflightScreenCaptureAccess=false
+cg count=25

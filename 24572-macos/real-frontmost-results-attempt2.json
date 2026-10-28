@@ -1,0 +1,274 @@
+{
+ "pids": {
+  "A": 18381,
+  "B": 18386,
+  "C": 18397,
+  "D": 23642,
+  "E": 18400
+ },
+ "results": [
+  {
+   "case": "M2-valid-pid-A-with-same-name-B-in-front",
+   "attempt": 2,
+   "frontmost": {
+    "pid": 18381,
+    "name": "TrifectaProbeWin",
+    "bundleId": ""
+   },
+   "fixtureCgOrder": [
+    {
+     "i": 19,
+     "id": 81163,
+     "layer": 3,
+     "ownerPid": 18400
+    },
+    {
+     "i": 20,
+     "id": 81161,
+     "layer": 3,
+     "ownerPid": 18397
+    },
+    {
+     "i": 21,
+     "id": 81160,
+     "layer": 0,
+     "ownerPid": 18386
+    },
+    {
+     "i": 22,
+     "id": 81159,
+     "layer": 0,
+     "ownerPid": 18381
+    },
+    {
+     "i": 23,
+     "id": 81185,
+     "layer": 0,
+     "ownerPid": 23642
+    },
+    {
+     "i": 24,
+     "id": 81162,
+     "layer": 0,
+     "ownerPid": 18400
+    }
+   ],
+   "before": {
+    "id": 81159,
+    "ownerPid": 18381,
+    "ownerName": "TrifectaProbeWin"
+   },
+   "after": {
+    "id": 81159,
+    "ownerPid": 18381,
+    "ownerName": "TrifectaProbeWin"
+   }
+  },
+  {
+   "case": "M2-valid-pid-B",
+   "attempt": 2,
+   "frontmost": {
+    "pid": 18386,
+    "name": "TrifectaProbeWin",
+    "bundleId": ""
+   },
+   "fixtureCgOrder": [
+    {
+     "i": 19,
+     "id": 81163,
+     "layer": 3,
+     "ownerPid": 18400
+    },
+    {
+     "i": 20,
+     "id": 81161,
+     "layer": 3,
+     "ownerPid": 18397
+    },
+    {
+     "i": 21,
+     "id": 81160,
+     "layer": 0,
+     "ownerPid": 18386
+    },
+    {
+     "i": 22,
+     "id": 81159,
+     "layer": 0,
+     "ownerPid": 18381
+    },
+    {
+     "i": 23,
+     "id": 81185,
+     "layer": 0,
+     "ownerPid": 23642
+    },
+    {
+     "i": 24,
+     "id": 81162,
+     "layer": 0,
+     "ownerPid": 18400
+    }
+   ],
+   "before": {
+    "id": 81160,
+    "ownerPid": 18386,
+    "ownerName": "TrifectaProbeWin"
+   },
+   "after": {
+    "id": 81160,
+    "ownerPid": 18386,
+    "ownerName": "TrifectaProbeWin"
+   }
+  },
+  {
+   "case": "M4-floating-only-app-C",
+   "attempt": 2,
+   "frontmost": {
+    "pid": 18397,
+    "name": "TrifectaProbeWin",
+    "bundleId": ""
+   },
+   "fixtureCgOrder": [
+    {
+     "i": 19,
+     "id": 81161,
+     "layer": 3,
+     "ownerPid": 18397
+    },
+    {
+     "i": 20,
+     "id": 81163,
+     "layer": 3,
+     "ownerPid": 18400
+    },
+    {
+     "i": 21,
+     "id": 81160,
+     "layer": 0,
+     "ownerPid": 18386
+    },
+    {
+     "i": 22,
+     "id": 81159,
+     "layer": 0,
+     "ownerPid": 18381
+    },
+    {
+     "i": 23,
+     "id": 81185,
+     "layer": 0,
+     "ownerPid": 23642
+    },
+    {
+     "i": 24,
+     "id": 81162,
+     "layer": 0,
+     "ownerPid": 18400
+    }
+   ],
+   "before": null,
+   "after": null
+  },
+  {
+   "case": "M4-app-E-floating-above-its-normal-window",
+   "attempt": 2,
+   "frontmost": {
+    "pid": 18400,
+    "name": "TrifectaProbeWin",
+    "bundleId": ""
+   },
+   "fixtureCgOrder": [
+    {
+     "i": 19,
+     "id": 81163,
+     "layer": 3,
+     "ownerPid": 18400
+    },
+    {
+     "i": 20,
+     "id": 81161,
+     "layer": 3,
+     "ownerPid": 18397
+    },
+    {
+     "i": 21,
+     "id": 81160,
+     "layer": 0,
+     "ownerPid": 18386
+    },
+    {
+     "i": 22,
+     "id": 81159,
+     "layer": 0,
+     "ownerPid": 18381
+    },
+    {
+     "i": 23,
+     "id": 81185,
+     "layer": 0,
+     "ownerPid": 23642
+    },
+    {
+     "i": 24,
+     "id": 81162,
+     "layer": 0,
+     "ownerPid": 18400
+    }
+   ],
+   "before": {
+    "id": 81162,
+    "ownerPid": 18400,
+    "ownerName": "TrifectaProbeWin"
+   },
+   "after": {
+    "id": 81162,
+    "ownerPid": 18400,
+    "ownerName": "TrifectaProbeWin"
+   }
+  },
+  {
+   "case": "M4-minimized-only-app-D",
+   "attempt": 2,
+   "frontmost": {
+    "pid": 23642,
+    "name": "TrifectaProbeWin",
+    "bundleId": ""
+   },
+   "fixtureCgOrder": [
+    {
+     "i": 19,
+     "id": 81163,
+     "layer": 3,
+     "ownerPid": 18400
+    },
+    {
+     "i": 20,
+     "id": 81161,
+     "layer": 3,
+     "ownerPid": 18397
+    },
+    {
+     "i": 21,
+     "id": 81160,
+     "layer": 0,
+     "ownerPid": 18386
+    },
+    {
+     "i": 22,
+     "id": 81159,
+     "layer": 0,
+     "ownerPid": 18381
+    },
+    {
+     "i": 23,
+     "id": 81162,
+     "layer": 0,
+     "ownerPid": 18400
+    }
+   ],
+   "before": null,
+   "after": null
+  }
+ ]
+}

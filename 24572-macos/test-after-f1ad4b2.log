@@ -1,0 +1,10 @@
+note: You are running `vp test` as a Vite+ built-in command. If you meant to run the test npm script, use `vpr test` instead.
+
+ RUN  v5.0.5 apps/desktop
+
+
+ Test Files  1 passed (1)
+      Tests  3 passed (3)
+   Start at  06:39:54
+   Duration  280ms (import 51%, setup 35%, transform 8%, tests 4%, worker 2%)
+

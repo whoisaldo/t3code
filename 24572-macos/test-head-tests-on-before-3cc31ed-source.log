@@ -1,0 +1,34 @@
+note: You are running `vp test` as a Vite+ built-in command. If you meant to run the test npm script, use `vpr test` instead.
+
+ RUN  v5.0.5 apps/desktop
+
+ ❯ src/snapShot/ActiveWindow.test.ts (3 tests | 1 failed) 8ms
+   × falls back to the first on-screen layer-zero window named like the app when its PID is -1 5ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/snapShot/ActiveWindow.test.ts > falls back to the first on-screen layer-zero window named like the app when its PID is -1
+AssertionError: expected undefined to equal 5
+
+- Expected:
+5
+
++ Received:
+undefined
+
+ ❯ src/snapShot/ActiveWindow.test.ts:91:10
+     89|   const window = await activeWindow("darwin");
+     90|
+     91|   assert.strictEqual(window?.id, 5);
+       |          ^
+     92|   assert.deepEqual(window?.owner, {
+     93|     name: "Device Hub",
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 2 passed (3)
+   Start at  06:39:55
+   Duration  252ms (import 52%, setup 31%, transform 9%, tests 6%, worker 2%)
+
